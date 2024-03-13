@@ -97,17 +97,22 @@ body {
     transition-delay: 400ms;
 }
 
+@media screen and (min-height: 700px) { 
+    
+
 .wrap {
+    
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     opacity: 50%;
     inline-size: 20px;
-
-    position: fixed;
-    top:20px;
-    left: 500px;
-    display:flexbox;
+    position:fixed;
+    top: -500px;
+    left: 30vw;
+    bottom: 100px;
+    display:grid;
     justify-content: center;
+    align-items: center;
 }
 
 a{
@@ -118,4 +123,6 @@ a{
     text-decoration: none;
     font-size: 50px;
     font-family: 'Kode Mono', sans-serif;
+}
+
 }
